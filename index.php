@@ -1,74 +1,21 @@
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Bootstrap</title>
 
-    <link rel="stylesheet" href="css.css">
+    <!-- Chamada da biblioteca em CSS interna -->
+    <link rel="stylesheet" href="biblioteca_estilos.css">
 
+
+    <!-- Chamada da biblioteca em CSS do BootStrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 
-
-    <script type="text/javascript" src="../js/login.js"></script>
-    
-</head>
-
-<body>
-
-    <div class="container">
-
-        <div class="row">
-            <div class "contem">
-                <div class="col-12">
-                    <h3 class="animated-word" style="text-align: center;">LOGIN MUSICAS</h3>
-        
-                </div>
-            </div>
-
-        </div>
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <div class="input-group flex-nowrap">
-            <div class="input-group-prepend">
-                <span class="input-group-text" id="addon-wrapping">@</span>
-            </div>
-            <input id = "txtemail" type="email" class="form-control" placeholder="Digite seu email: " aria-label="Username"
-                aria-describedby="addon-wrapping">
-        </div>
-
-        <br>
-
-        <div class="input-group flex-nowrap">
-            <div class="input-group-prepend">
-                <span class="input-group-text" id="addon-wrapping">Senha</span>
-            </div>
-            <input id = "txtsenha" type="password" class="form-control" placeholder="Digite sua senha: " aria-label="Username"
-                aria-describedby="addon-wrapping">
-        </div>
-
-        <br>
-
-        <button onclick="logar()" type="button" class="btn btn-outline-dark btn-block btn-lg">Login</button>
-
-    </div>
-
-
-
-
-
-    
-
-
+    <!-- Chamada da biblioteca em JS do BootStrap-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
@@ -78,6 +25,88 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-md-4 col-sm-3 div1">home</div>
+            <div class="col-lg-5 col-md-3 col-sm-3 div2">produtos</div>
+            <div class="col-lg-3 col-md-2 col-sm-3 div3">links</div>
+            <div class="col-lg-2 col-md-3 col-sm-3 div4">contatos</div>
+        </div>
+        <div class="row">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="..\imagens\banner1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Primeiro Banner</h5>
+                      <p>Este foi o meu primeiro banner no paint</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..\imagens\banner2.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Segundo Banner</h5>
+                      <p>Este foi o meu segunmdo banner no paint</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..\imagens\banner3.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Terceiro Banner</h5>
+                      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </div>
+        <div class="row">
+            <div class="card-deck">
+                <div class="card">
+                  <img src="..\imagens\banner3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Curso de HTML</h5>
+                    <p class="card-text">HTML significa Hypertext Markup Language. Ele permite que os usuários criem e estruturem seções, parágrafos, cabeçalhos e links para páginas da internet ou aplicações. O HTML não é uma linguagem de programação, isso significa que não pode ser usado para criar funcionalidades dinâmicas.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="..\imagens\banner2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Curso de XML</h5>
+                    <p class="card-text">O XML, sigla para eXtensible Markup Language, é um tipo de linguagem de marcação que define regras para codificar diferentes documentos. É muito utilizado para a criação de Notas Fiscais Eletrônicas, também chamadas de NF-e, por armazená-las e ainda garantir uma assinatura digital.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="..\imagens\banner1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Curso de CSS</h5>
+                    <p class="card-text">CSS é a sigla para o termo em inglês Cascading Style Sheets que, traduzido para o português, significa Folha de Estilo em Cascatas. O CSS é fácil de aprender e entender e é facilmente utilizado com as linguagens de marcação HTML ou XHTML.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+    </div>
 
 
 
