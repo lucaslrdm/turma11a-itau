@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap</title>
+    <title>Uma pagina de teste</title>
 
     <!-- Chamada da biblioteca em CSS interna -->
     <link rel="stylesheet" href="biblioteca_estilos.css">
