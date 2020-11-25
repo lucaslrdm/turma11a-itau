@@ -46,21 +46,21 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="..\imagens\banner1.png" class="d-block w-100" alt="...">
+                    <img src="banner1.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Primeiro Banner</h5>
                       <p>Este foi o meu primeiro banner no paint</p>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="..\imagens\banner2.png" class="d-block w-100" alt="...">
+                    <img src="banner2.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Segundo Banner</h5>
                       <p>Este foi o meu segunmdo banner no paint</p>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="..\imagens\banner3.png" class="d-block w-100" alt="...">
+                    <img src="banner3.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Terceiro Banner</h5>
                       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -80,7 +80,7 @@
         <div class="row">
             <div class="card-deck">
                 <div class="card">
-                  <img src="..\imagens\banner3.png" class="card-img-top" alt="...">
+                  <img src="banner3.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Curso de HTML</h5>
                     <p class="card-text">HTML significa Hypertext Markup Language. Ele permite que os usuários criem e estruturem seções, parágrafos, cabeçalhos e links para páginas da internet ou aplicações. O HTML não é uma linguagem de programação, isso significa que não pode ser usado para criar funcionalidades dinâmicas.</p>
@@ -88,7 +88,7 @@
                   </div>
                 </div>
                 <div class="card">
-                  <img src="..\imagens\banner2.png" class="card-img-top" alt="...">
+                  <img src="banner2.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Curso de XML</h5>
                     <p class="card-text">O XML, sigla para eXtensible Markup Language, é um tipo de linguagem de marcação que define regras para codificar diferentes documentos. É muito utilizado para a criação de Notas Fiscais Eletrônicas, também chamadas de NF-e, por armazená-las e ainda garantir uma assinatura digital.</p>
@@ -96,7 +96,7 @@
                   </div>
                 </div>
                 <div class="card">
-                  <img src="..\imagens\banner1.png" class="card-img-top" alt="...">
+                  <img src="banner1.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Curso de CSS</h5>
                     <p class="card-text">CSS é a sigla para o termo em inglês Cascading Style Sheets que, traduzido para o português, significa Folha de Estilo em Cascatas. O CSS é fácil de aprender e entender e é facilmente utilizado com as linguagens de marcação HTML ou XHTML.</p>
