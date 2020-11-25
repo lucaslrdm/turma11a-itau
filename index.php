@@ -1,4 +1,4 @@
-<h1>Bem vindo a aula de CI e CD do treinamento Gama Itau 11A</h1>
+<h1>Bem vindo a aula de CI e CD do treinamento Gama Itau 11C</h1>
 
 <h5>Mudando agora com o pessoal da turma</h5>
 <h4>
