@@ -37,7 +37,7 @@
       <div class="col-lg-3 col-md-2 col-sm-3 div3"><a href ="" style="text-decoration:none" >LINKS</a></div>
       <div class="col-lg-2 col-md-3 col-sm-3 div4">
         <a  
-        href="https://api.whatsapp.com/send?phone=5511983303778&text=Oi%20gostaria%20de%20maiores%20100%20informações" target="_blank" style="text-decoration:none" >CONTATOS</a>
+        href="https://api.whatsapp.com/send?phone=5511983303778&text=Oi,%20gostaria%20de%20maiores%20informações%20sobre%20a%20advocacia" target="_blank" style="text-decoration:none" >CONTATOS</a>
 
         </div>
     </div>
