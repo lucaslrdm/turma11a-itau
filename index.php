@@ -123,7 +123,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="card2.png" class="card-img-top" alt="...">
+        <img src="card2.PNG" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Divorciou? <br>
             mas quem fica com o pet</h5>
@@ -140,7 +140,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="card3.png" class="card-img-top" alt="...">
+        <img src="card3.PNG" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">DIREITO IMOBILIARIO</h5>
           <p class="card-text">
