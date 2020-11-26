@@ -32,7 +32,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-lg-2 col-md-4 col-sm-3 div1"><a href =""></a>home</a></div>
+      <div class="col-lg-2 col-md-4 col-sm-3 div1"><a href ="">home</a></div>
       <div class="col-lg-5 col-md-3 col-sm-3 div2"><a href ="">Serviços</a></div>
       <div class="col-lg-3 col-md-2 col-sm-3 div3"><a href ="">Links</a></div>
       <div class="col-lg-2 col-md-3 col-sm-3 div4">
@@ -115,7 +115,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="card2.png" class="card-img-top" alt="...">
+        <img src="card2.PNG" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Divorciou? <br>
             mas quem fica com o pet</h5>
@@ -132,7 +132,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="card3.png" class="card-img-top" alt="...">
+        <img src="card3.PNG" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">DIREITO IMOBILIARIO</h5>
           <p class="card-text">
